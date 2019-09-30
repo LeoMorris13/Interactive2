@@ -1,0 +1,44 @@
+/* setup the spread */
+
+body {
+    background: rgb(58, 58, 58);
+    margin: 0;
+    padding: 50;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.folio {
+    height: 600px;
+    width: 900px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+.page {
+    height: 600px;
+    width: 420px;
+    background: black;
+    border: 1px solidrgb(0, 0, 0);
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+#pageOne {
+    padding: 25px 25px 25px 25px;
+}
+
+#pageTwo {
+    padding: 50px 25px 0 25px;
+    margin-left: -1px;
+}
+
+.gridlines {
+    background-image: linear-gradient(var(--grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+    background-size: var(--grid-size) var(--grid-size);
+    background-position: -1px -1px;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: harbour;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: harbour;
+    color: rgb(219, 39, 39);
+    font-size: 60px;
+    text-align: center;
+
+}
+
+li {
+    height: 200px;
+    width: 150px;
+    background-color: rgb(211, 216, 216);
+    float: left;
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+    transition: transorm 300ms;
+}
+
+a:link,
+a:visited {
+    color: white;
+
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+li:hover {
+    color: red;
+    transform: scale(.75);
+}
